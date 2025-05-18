@@ -1,0 +1,309 @@
+* {
+    outline: 0 !important;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background-color: #02897a;
+    cursor: pointer;
+}
+
+.btn-white {
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* HEADER */
+
+.header {
+}
+.header-nav {
+}
+.nav-logo {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #22343d;
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-nav-link {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+.header-login {
+}
+.header-login-item {
+}
+.header-login-btn {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #173a56;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.text-focus {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+}
+
+/* PRICING */
+
+.price {
+}
+.price-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+}
+.price-text-accent {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #22343d;
+}
+.price-text {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #22343d;
+}
+.price-list {
+}
+.price-list-item {
+}
+.price-list-subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.66667;
+    color: #22343d;
+}
+.price-list-text {
+    font-size: 16px;
+    line-height: 2.5;
+    color: #22343d;
+}
+.price-list-coin {
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.31579;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+}
+.price-list-money {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+}
+.price-list-period {
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+.second-list {
+}
+.second-list-item {
+}
+.second-list-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+.price-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    width: 139px;
+    height: 44px;
+    background-color: #02897a;
+}
+/* INTERPRICE */
+
+.enterprice {
+}
+.enterprice-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+}
+.enterprice-text-accent {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+}
+.enterprice-text {
+    font-size: 18px;
+    color: #22343d;
+}
+.enterprice-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    width: 224px;
+    height: 44px;
+    background-color: #02897a;
+}
+
+/* PRODUCT */
+
+.product {
+}
+.Hidden {
+}
+.product-text {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+}
+.product-list {
+}
+.product-list-item {
+}
+.product-second {
+}
+.produxt-list-item {
+}
+.product-list-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #22343d;
+}
+.product-list-text {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+
+/* QUASTIONS */
+
+.quations {
+}
+.quations-title {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+}
+.quations-text {
+    font-size: 18px;
+    color: #22343d;
+}
+.quations-list {
+}
+.quations-list-item {
+}
+.quations-list-subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    color: #22343d;
+}
+.quations-list-text {
+    font-size: 16px;
+    color: #22343d;
+}
+
+/* PROMO */
+
+.promo {
+    border-radius: 32px;
+    width: 968px;
+    height: 345px;
+    background: #02897a;
+}
+.promo-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.514;
+    color: #fff;
+}
+.promo-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #22343d;
+}
+
+/*  */
+
+/* FOOTER */
+
+.footer {
+}
+.footer-list {
+}
+.footer-list-item {
+}
+.second-list {
+}
+.second-list-item {
+}
+.second-list-logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93333;
+    color: #173a56;
+}
+.second-list-imag {
+}
+.second-list-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+}
+.second-list-link {
+    font-size: 16px;
+    line-height: 2.1875;
+    color: #22343d;
+}
+.second-list-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.footer-copyright {
+    font-size: 16px;
+    line-height: 1.875;
+    color: #22343d;
+}

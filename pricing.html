@@ -3,127 +3,167 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Pricing</title>
+        <link rel="stylesheet" href="./css/pricing.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+            integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="index.html"
+        <header class="header">
+            <nav class="header-nav">
+                <a class="nav-logo" href="index.html"
                     ><img src="./images/logo.svg" alt="logo" />Product</a
                 >
-                <ul>
-                    <li><a href="./index.html">Product</a></li>
-                    <li><a href="./pricing.html">Pricing</a></li>
-                    <li><a href="./customers.html">Customers</a></li>
-                    <li><a href="./resources.html">Resources</a></li>
+
+                <ul class="header-nav-list">
+                    <li class="header-nav-item">
+                        <a class="header-nav-link" href="./index.html"
+                            >Product</a
+                        >
+                    </li>
+                    <li class="header-nav-item">
+                        <a class="header-nav-link" href="./pricing.html"
+                            >Pricing</a
+                        >
+                    </li>
+                    <li class="header-nav-item">
+                        <a class="header-nav-link" href="./customers.html"
+                            >Customers</a
+                        >
+                    </li>
+                    <li class="header-nav-item">
+                        <a class="header-nav-link" href="./resources.html"
+                            >Resources</a
+                        >
+                    </li>
                 </ul>
-                <ul>
-                    <li><button type="button">Sign In</button></li>
-                    <li><button type="button">Sign Up</button></li>
+                <ul class="header-login">
+                    <li class="header-login-item">
+                        <button class="header-login-btn" type="button">
+                            Sign In
+                        </button>
+                    </li>
+                    <li class="header-login-item">
+                        <button class="header-login-btn" type="button">
+                            Sign Up
+                        </button>
+                    </li>
                 </ul>
             </nav>
         </header>
         <main>
-            <!-- Price -->
-            <section>
-                <h1 class="Hidden">Price</h1>
-                <h2>PRICING</h2>
-                <p>
+            <section class="price">
+                <h2 class="price-title">PRICING</h2>
+                <p class="price-text-accent">
+                    Let’s get some real work done here.
+                </p>
+                <p class="price-text">
                     Prodict is your perfect solution for working. Get started
                     now for free
                 </p>
-                <ul>
-                    <li>
-                        <h3>Free</h3>
-                        <p>Brief price description</p>
-                        <p>0</p>
-                        <span>$</span>
-                        <p>Per / month</p>
-                        <ul>
-                            <li>
-                                <p>Only 2 Operators</p>
-                            </li>
-                            <li>
-                                <p>Notifications</p>
-                            </li>
-                            <li>
-                                <p>Landing Pages</p>
+                <ul class="price-list">
+                    <li class="price-list-item">
+                        <h3 class="price-list-subtitle">Free</h3>
+                        <p class="price-list-text">Brief price description</p>
+                        <span class="price-list-coin">0</span>
+                        <span class="price-list-money">$</span>
+                        <span class="price-list-period">Per / month</span>
+                        <ul class="second-list">
+                            <li class="second-list-item">
+                                <p class="second-list-text">Only 2 Operators</p>
+                                <p class="second-list-text">Notifications</p>
+                                <p class="second-list-text">Landing Pages</p>
                             </li>
                         </ul>
-                        <button type="button">Order Now</button>
+                        <button class="price-btn" type="button">
+                            Order Now
+                        </button>
                     </li>
-                    <li>
-                        <h3>Standard</h3>
-                        <p>Brief price description</p>
-                        <p>5</p>
-                        <span>$</span>
-                        <p>Per / month</p>
-                        <ul>
-                            <li>
-                                <p>5+ Operators</p>
-                            </li>
-                            <li>
-                                <p>Notifications</p>
-                            </li>
-                            <li>
-                                <p>Landing Pages</p>
+                    <li class="price-list-item">
+                        <h3 class="price-list-subtitle">Standard</h3>
+                        <p class="price-list-text">Brief price description</p>
+                        <span class="price-list-coin">5</span>
+                        <span class="price-list-money">$</span>
+                        <span class="price-list-period">Per / month</span>
+                        <ul class="second-list">
+                            <li class="second-list-item">
+                                <p class="second-list-text">5+ Operators</p>
+                                <p class="second-list-text">Notifications</p>
+                                <p class="second-list-text">Landing Pages</p>
                             </li>
                         </ul>
-                        <button type="button">Order Now</button>
+                        <button class="price-btn" type="button">
+                            Order Now
+                        </button>
                     </li>
-                    <li>
-                        <h3>Premium</h3>
-                        <p>Brief price description/p></p>
-                        <p>10</p>
-                        <span>$</span>
-                        <p>Per / month</p>
-                        <ul>
-                            <li>
-                                <p>Only 3 Operators</p>
-                            </li>
-                            <li>
-                                <p>Notifications</p>
-                            </li>
-                            <li>
-                                <p>Landing Pages</p>
+                    <li class="price-list-item">
+                        <h3 class="price-list-subtitle">Premium</h3>
+                        <p class="price-list-text">Brief price description</p>
+                        <span class="price-list-coin">10</span>
+                        <span class="price-list-money">$</span>
+                        <span class="price-list-period">Per / month</span>
+                        <ul class="second-list">
+                            <li class="second-list-item">
+                                <p class="second-list-text">10+ Operators</p>
+                                <p class="second-list-text">Notifications</p>
+                                <p class="second-list-text">Landing Pages</p>
                             </li>
                         </ul>
-                        <button type="button"></button>
+                        <button class="price-btn" type="button">
+                            Order Now
+                        </button>
                     </li>
                 </ul>
             </section>
-            <!-- ENTERPRISE -->
-            <section>
-                <h2>ENTERPRISE</h2>
-                <p>Are you interested in a custom-tailored plan?</p>
-                <p>
+            <section class="enterprice">
+                <h2 class="enterprice-title">ENTERPRISE</h2>
+                <p class="enterprice-text-accent">
+                    Are you interested in a custom-tailored plan?
+                </p>
+                <p class="enterprice-text">
                     Product is a set of advanced features for really large teams
                     with projects.
                 </p>
-                <button>Get in touch with us</button>
+                <button class="enterprice-btn">Get in touch with us</button>
             </section>
-            <!-- product using -->
-            <section>
+            <section class="product">
                 <h2 class="Hidden">Product using</h2>
-                <p>Product is being used with great effects alongside:</p>
+                <p class="product-text">
+                    Product is being used with great effects alongside:
+                </p>
                 <img src="./images/amico.png" alt="desctop" width="528" />
-                <ul>
-                    <li>
-                        <ul>
-                            <li><h3>Enterpreneur</h3></li>
-                            <li>
-                                <p>
+                <ul class="product-list">
+                    <li class="product-list-item">
+                        <ul class="product-second">
+                            <li class="produxt-list-item">
+                                <h3 class="product-list-subtitle">
+                                    Enterpreneur
+                                </h3>
+                                <p class="product-list-text">
                                     Product is a great way to help medium and
                                     samall enterprise owners achieve their goals
                                 </p>
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <ul>
-                            <li><h3>Accountants</h3></li>
-                            <li>
-                                <p>
+                    <li class="product-list-item">
+                        <ul class="product-second">
+                            <li class="produxt-list-item">
+                                <h3 class="product-list-subtitle">
+                                    Accountants
+                                </h3>
+                                <p class="product-list-text">
                                     Whether you are working on contract with
                                     clients, or on other key accounting
                                     documents, Product is for you
@@ -131,11 +171,13 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <ul>
-                            <li><h3>Universities</h3></li>
-                            <li>
-                                <p>
+                    <li class="product-list-item">
+                        <ul class="product-second">
+                            <li class="produxt-list-item">
+                                <h3 class="product-list-subtitle">
+                                    Universities
+                                </h3>
+                                <p class="product-list-text">
                                     Organize university projects and have
                                     documents easily graded online with Product
                                 </p>
@@ -144,20 +186,23 @@
                     </li>
                 </ul>
             </section>
-            <!-- asked quations -->
-            <section>
-                <h2>Frequently asked question</h2>
-                <p>
+            <section class="quations">
+                <h2 class="quations-title">Frequently asked question</h2>
+                <p class="quations-text">
                     Something is not clear? You need help? Check our FAQ section
                 </p>
-                <ul>
-                    <li>
-                        <h3>What are my payment option?</h3>
-                        <p class="Hidden"></p>
+                <ul class="quations-list">
+                    <li class="quations-list-item">
+                        <h3 class="quations-list-subtitle">
+                            What are my payment option?
+                        </h3>
+                        <p class="Hidden quations-list-text"></p>
                     </li>
-                    <li>
-                        <h3>How can I invite collaborator to platform?</h3>
-                        <p>
+                    <li class="quations-list-item">
+                        <h3 class="quations-list-subtitle">
+                            How can I invite collaborator to platform?
+                        </h3>
+                        <p class="quations-list-text">
                             After creating your account you will have an
                             oppurtunity to create your first project that will
                             be associated withthe collaborators e-mail. An
@@ -166,82 +211,94 @@
                             finish userd onboarding.
                         </p>
                     </li>
-                    <li>
-                        <h3>Can I upgrade my plan?</h3>
-                        <p class="Hidden"></p>
+                    <li class="quations-list-item">
+                        <h3 class="quations-list-subtitle">
+                            Can I upgrade my plan?
+                        </h3>
+                        <p class="Hidden quations-list-text"></p>
                     </li>
-                    <li>
-                        <h3>Can I cancel my plan at anytime?</h3>
-                        <p class="Hidden"></p>
+                    <li class="quations-list-item">
+                        <h3 class="quations-list-subtitle">
+                            Can I cancel my plan at anytime?
+                        </h3>
+                        <p class="Hidden quations-list-text"></p>
                     </li>
                 </ul>
             </section>
-            <!-- promo -->
-            <section>
-                <h2>
+            <section class="promo">
+                <h2 class="promo-title">
                     Join 100 Compannies who boost their business with Product
                 </h2>
-                <button type="button">Get This</button>
+                <button class="promo-btn btn-white" type="button">
+                    Get This
+                </button>
                 <img src="./images/graphics.png" alt="graphics" width="351" />
             </section>
         </main>
-        <footer>
-            <ul>
-                <li>
-                    <ul>
-                        <li>
-                            <a href="./index.html"
+        <footer class="footer">
+            <ul class="footer-list">
+                <li class="footer-list-item">
+                    <ul class="second-list">
+                        <li class="second-list-item">
+                            <a class="second-list-logo" href="./index.html"
                                 ><img
+                                    class="second-list-imag"
                                     src="./images/logo.svg"
                                     alt="logo"
                                     width="40"
                                 />Product</a
                             >
                         </li>
-                        <li>
+                        <li class="second-list-item">
                             <a href="./images/instagram.svg"></a>
                             <a href="./images/facebook.svg"></a>
                             <a href="./images/twitter.svg"></a>
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <ul>
-                        <li>
-                            <b>Resource</b>
-                            <a href="#">About Us</a>
-                            <a href="#">Blog</a>
-                            <a href="#">Contact</a>
-                            <a href="#">FAQ</a>
+                <li class="footer-list-item">
+                    <ul class="second-list">
+                        <li class="second-list-item">
+                            <b class="second-list-text">Resource</b>
+                            <a class="second-list-link" href="#">About Us</a>
+                            <a class="second-list-link" href="#">Blog</a>
+                            <a class="second-list-link" href="#">Contact</a>
+                            <a class="second-list-link" href="#">FAQ</a>
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <ul>
-                        <li>
-                            <b>Legal Stuff</b>
-                            <a href="#">Disclaimer</a>
-                            <a href="#">Financing</a>
-                            <a href="#">Privacy Policy</a>
+                <li class="footer-list-item">
+                    <ul class="second-list">
+                        <li class="second-list-item">
+                            <b class="second-list-text">Legal Stuff</b>
+                            <a class="second-list-link" href="#">Disclaimer</a>
+                            <a class="second-list-link" href="#">Financing</a>
+                            <a class="second-list-link" href="#"
+                                >Privacy Policy</a
+                            >
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <ul>
-                        <li>
-                            <b
+                <li class="footer-list-item">
+                    <ul class="second-list">
+                        <li class="second-list-item">
+                            <b class="second-list-text"
                                 >knowing you're always on the best energy deal.
                             </b>
                             <input
                                 type="tel"
                                 placeholder="Enter your phone number"
                             />
-                            <button type="button">Sign up Now</button>
+                            <button class="second-list btn" type="button">
+                                Sign up Now
+                            </button>
                         </li>
                     </ul>
                 </li>
             </ul>
-            <p>Made With Love By Figmaland All Right Reserved</p>
+            <p class="footer-copyright">
+                Made With Love By Figmaland All Right Reserved
+            </p>
         </footer>
     </body>
 </html>
