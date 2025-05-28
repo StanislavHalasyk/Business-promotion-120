@@ -102,6 +102,12 @@ img {
     line-height: 1.75;
     color: #22343d;
 }
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #02897a;
+}
+
 .header-login {
     display: flex;
     gap: 21px;
@@ -115,8 +121,21 @@ img {
     background-color: #fff;
 }
 
+.btn.header-signin-btn:hover,
+.btn.header-signin-btn:focus {
+    color: #02897a;
+    border: 1px solid #02897a;
+}
+
 .btn.header-signup-btn {
     min-width: 113px;
+}
+
+.btn.header-signup-btn:hover,
+.btn.header-signup-btn:focus {
+    color: #02897a;
+    background-color: #fff;
+    border: 1px solid #02897a;
 }
 
 .text-focus {
@@ -173,11 +192,33 @@ img {
     background-color: #fff;
     border: none;
 }
-.hero-img {
-    max-width: 610px;
+
+.hero-list-movie:hover,
+.hero-list-movie:focus {
+    color: #fff;
+    background-color: #02897a;
 }
 
 .btn.hero-btn {
+    font-size: 16px;
+    color: #fff;
+    min-width: 178px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid;
+    border-color: inherit;
+}
+
+.btn.hero-btn:hover,
+.btn.hero-btn:focus {
+    color: #02897a;
+    background-color: #fff;
+    border: 1px solid #02897a;
+}
+
+.hero-img {
+    max-width: 610px;
 }
 
 /* PRODUCT */
@@ -216,9 +257,22 @@ img {
 }
 
 .btn.product-btn {
-    display: block;
     margin: 0 auto;
+    min-width: 175px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: auto;
+    border: 1px solid;
+    border-color: inherit;
 }
+
+.btn.product-btn:hover,
+.btn.product-btn:focus {
+    color: #02897a;
+    background-color: #fff;
+    border: 1px solid #02897a;
+}
+
 /* MANAGEMENT */
 
 .management {
@@ -441,10 +495,20 @@ img {
 
 .btn.process-btn {
     font-weight: 700;
+    border-radius: 4px;
     min-width: 216px;
     height: 53px;
     display: block;
     margin: 50px auto 100px;
+    border: 1px solid;
+    border-color: inherit;
+}
+
+.btn.process-btn:hover,
+.btn.process-btn:focus {
+    color: #02897a;
+    background-color: #fff;
+    border: 1px solid #02897a;
 }
 
 /* strategies */
@@ -540,11 +604,9 @@ img {
     widows: calc((100% - 72px * 2) / 3);
 }
 
-.price-list :hover,
-.price-list :focus {
+.price-list-item :hover {
     background-color: #02897a;
     cursor: pointer;
-    color: fff;
 }
 
 .price-list-subtitle {
@@ -677,6 +739,7 @@ img {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .promo-title-block {
@@ -701,6 +764,13 @@ img {
     color: #02897a;
 }
 
+.btn.promo-btn:hover,
+.btn.promo-btn:focus {
+    color: #fff;
+    background-color: #02897a;
+    border: 1px solid #fff;
+}
+
 .promo-image {
     max-width: 351px;
 }
@@ -715,7 +785,7 @@ img {
 }
 .social-list-item {
     display: flex;
-    margin-right: 146px;
+    margin-right: 153px;
 }
 
 .social-list-logo {
@@ -725,7 +795,6 @@ img {
     color: #173a56;
     display: flex;
     align-items: center;
-
     gap: 16px;
 }
 .social-list-image {
@@ -745,7 +814,8 @@ img {
 }
 
 .footer-list-item {
-    margin-right: 109px;
+    margin-right: 79px;
+    margin-bottom: 16px;
 }
 .footer-list-text {
     font-weight: 500;
@@ -753,7 +823,6 @@ img {
     line-height: 1.5;
     color: #22343d;
     margin-bottom: 8px;
-    min-width: 120px;
 }
 .footer-list-link {
     font-size: 16px;
@@ -766,16 +835,49 @@ img {
     flex-direction: column;
 }
 
+.footer-info-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+    max-width: 280px;
+    margin-bottom: 30px;
+}
+
+.footer-input {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #02897a;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-input::placeholder {
+    color: #02897a;
+}
+
+.btn.footer-list-btn {
+    font-weight: 700;
+    max-width: 131px;
+    height: 39px;
+    border: 1px solid;
+    border-color: inherit;
+}
+
+.btn.footer-list-btn:hover,
+.btn.footer-list-btn:focus {
+    color: #02897a;
+    background-color: #fff;
+    border: 1px solid #02897a;
+}
+
 .footer-copyright {
     font-size: 16px;
     line-height: 1.875;
     color: #22343d;
     text-align: center;
-    padding-bottom: 40px;
 }
 
-.btn.footer-list-btn {
-    min-width: 131px;
-    height: 39px;
-    font-weight: 700;
+.footer-container {
+    padding-bottom: 40px;
 }
