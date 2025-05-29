@@ -594,6 +594,7 @@ img {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
+    text-align: center;
 }
 .price-list-item {
     border-radius: 8px;
@@ -604,8 +605,18 @@ img {
     widows: calc((100% - 72px * 2) / 3);
 }
 
-.price-list-item :hover {
+.price-list-item:hover {
     background-color: #02897a;
+}
+
+.price-list-item:hover .price-list-coin,
+.price-list-item:hover .price-list-money {
+    color: #fff;
+}
+
+.price-list-item:hover .btn.price-btn {
+    background-color: #fff;
+    color: #02897a;
     cursor: pointer;
 }
 
@@ -614,15 +625,34 @@ img {
     font-size: 24px;
     line-height: 1.66667;
     color: #22343d;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .price-list-text {
     font-size: 16px;
     line-height: 2.5;
     color: #22343d;
+    margin-bottom: 16px;
+}
+
+.price-list-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.price-money-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
 }
 
 .price-list-coin {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
     font-size: 76px;
     line-height: 1.31579;
     letter-spacing: 0em;
@@ -630,6 +660,7 @@ img {
     color: #02897a;
 }
 .price-list-money {
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.25;
@@ -643,6 +674,7 @@ img {
     color: #afafaf;
 }
 .second-list {
+    padding-bottom: 30px;
 }
 .second-list-item {
 }
@@ -653,8 +685,11 @@ img {
     letter-spacing: 0.01em;
     color: #22343d;
 }
-
+.second-list-text:not(:last-child) {
+    margin-bottom: 16px;
+}
 .price-btn {
+    min-width: 139px;
 }
 
 /* REVIEWS */
