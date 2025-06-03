@@ -69,6 +69,7 @@ img {
     height: 42px;
     background: #02897a;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* HEADER */
@@ -240,6 +241,10 @@ img {
 }
 .product-list-item {
     width: calc((100% - 30px * 3) / 4);
+}
+
+.product-list-img {
+    margin-bottom: 26px;
 }
 .product-list-subtitle {
     font-weight: 600;
@@ -540,8 +545,11 @@ img {
     border-radius: 8px;
     background-color: #fff;
 }
+
 .strategies-list-image {
-    /* margin-bottom: 24px; */
+}
+
+.strategies-list-image {
 }
 
 .strategies-list-block {
@@ -603,10 +611,12 @@ img {
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
     background-color: #fff;
     widows: calc((100% - 72px * 2) / 3);
+    transition: background-color 250ms ease-in-out;
 }
 
 .price-list-item:hover {
     background-color: #02897a;
+    transform: translateY(-5%);
 }
 
 .price-list-item:hover .price-list-coin,
