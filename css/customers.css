@@ -315,21 +315,23 @@ img {
 }
 .received-list-item {
 }
-.img-box-left {
+/* .img-box-left {
     width: 150px;
     height: 150px;
     border-radius: 100px;
     padding: 30px 20px;
     background-color: #ffefef;
-}
+} */
 
-.img-box-right {
+/* .img-box-right {
     border-radius: 100px;
     padding: 30px 20px;
     width: 150px;
     height: 150px;
     background-color: #f2f6ff;
-}
+} */
+
+
 .received-img {
 }
 .received-list-subtitle {
